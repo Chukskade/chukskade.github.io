@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* the header */
+header {
+    background-color: #007acc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Style section headings */
+h2 {
+    color: #007acc;
+}
+
+/* skills and projects list */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Style links */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*  the footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}

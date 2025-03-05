@@ -1,0 +1,30 @@
+/*  reset */
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the cool box */
+.cool-box {
+    width: 500px; /* Increased width */
+    height: 250px; /* Increased height */
+    margin: 100px auto; /* Centering */
+    padding: 40px;
+    background-color: red; /* Red background */
+    border: 5px solid darkred; /* Dark red border */
+    border-radius: 25px; /* Rounded corners */
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5); /* Stronger shadow */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling the text inside the box */
+.cool-box p {
+    font-size: 2em; /* Larger text */
+    color: white; /* White text for contrast */
+    font-weight: bold;
+}
