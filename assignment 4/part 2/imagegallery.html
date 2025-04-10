@@ -1,0 +1,75 @@
+<!--
+    Name: Kade Chukwuebuka
+    File: imagegallery.html
+    Date: 05 march 2025
+     A simple image gallery with thumbnails and light/dark toggle functionality.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .full-img {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: black;
+        }
+
+        .full-img img {
+            width: 100%;
+            max-height: 500px;
+        }
+
+        .thumb-bar img {
+            width: 100px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        .thumb-bar {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .dark {
+            background-color: rgba(0,0,0,0.7);
+            color: white;
+        }
+
+        .light {
+            background-color: white;
+            color: black;
+        }
+
+        button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="full-img">
+        <img class="displayed-img" src="images/pic1.jpg" alt="Gallery image">
+        <button class="dark">Darken</button>
+    </div>
+
+    <div class="thumb-bar"></div>
+
+    <script src="imagegallery.js"></script>
+</body>
+</html>
